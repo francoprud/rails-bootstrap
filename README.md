@@ -6,7 +6,7 @@ RailsBootstrap
 
 `[![Codestats](http://codestats-url/organizations/your-organization/projects/rails-bootstrap/badge)](http://codestats-url/organizations/your-organization/projects/rails-bootstrap/badge)`
 
-Kickoff for Rails web applications.
+Kickoff for Rails web applications with AngularJS.
 
 ## Running local server
 
@@ -71,6 +71,13 @@ Log out from postgres and run:
 ```
 
 Your server is ready to run. You can do this by executing `rails server` and going to [http://localhost:3000](http://localhost:3000). Happy coding!
+
+## AngularJS Guide
+
+AngularJS is added inside `vendor/assets/javascripts` folder. The current version is `v1.6.2`.
+
+In case you want to add another external libraries to use just download the library code (better its minified version!) and place it
+under the `vendor/assets/javascripts` folder, and finally add the `require` to the `application.js` file.
 
 ## Running with Docker
 
